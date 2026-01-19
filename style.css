@@ -21,7 +21,7 @@ li{
 a{
   text-decoration: none;  
   color: floralwhite;
-  font-size: 1ran;
+  font-size: 1rem;
 }
 
 a:hover{
@@ -30,7 +30,7 @@ a:hover{
 /* HEADER */
 header{
     position: relative;
-    padding: 8 2ran;
+    padding: 8 2rem;
 }
 
 .navbar{
@@ -44,11 +44,40 @@ header{
 }
 
 .navbar .logo a{
-    font-size: 1.5ren;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .navbar .links {
     display: flex;
-    gap: 2ren;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn {
+    color: aliceblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action-btn {
+    background-color: orange;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+}
+
+.action-btn:hover {
+    scale: 1.85;
+    color: aliceblue;
+}
+
+.action-btn:active {
+    scale: 0.95;
 }
